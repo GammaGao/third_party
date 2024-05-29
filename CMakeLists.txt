@@ -447,7 +447,7 @@ ExternalProject_Add(azure-storage-cpplite
 #
 ExternalProject_Add(cnmem
   PREFIX cnmem
-  SOURCE_DIR "${CMAKE_CURRENT_SOURCE_DIR}/third-party-src/cnmen"
+  SOURCE_DIR "${CMAKE_CURRENT_SOURCE_DIR}/third-party-src/cnmem"
   EXCLUDE_FROM_ALL ON
   DOWNLOAD_COMMAND ""
   CMAKE_CACHE_ARGS
