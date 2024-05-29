@@ -1,4 +1,4 @@
-# Copyright 2021-2022, NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+#c Copyright 2021-2022, NVIDIA CORPORATION & AFFILIATES. All rights reserved.
 #
 # Redistribution and use in source and binary forms, with or without
 # modification, are permitted provided that the following conditions
@@ -447,7 +447,7 @@ ExternalProject_Add(azure-storage-cpplite
 #
 ExternalProject_Add(cnmem
   PREFIX cnmem
-  SOURCE_DIR "${CMAKE_CURRENT_SOURCE_DIR}/cnmem"
+  SOURCE_DIR "${CMAKE_CURRENT_SOURCE_DIR}/third-party-src/cnmen"
   EXCLUDE_FROM_ALL ON
   DOWNLOAD_COMMAND ""
   CMAKE_CACHE_ARGS
